@@ -220,6 +220,8 @@ padding-left: 33.3333%;
 	font-size: 1.6rem;
 	color: #313131;
 	margin-bottom: 1.2rem;
+	padding-left: 16rem;
+	padding-right: 13rem;
 
 }
 #about h2{
@@ -379,3 +381,128 @@ footer .color {
  #social-em:hover {
      color: #f39c12;
  }
+@media only screen and (max-width:1024px) {
+	.intro-info {
+		margin-right: 0;
+		margin-left: 0;
+	}
+	.info-list{
+		margin-top: 20px;
+		padding-left: 20px;
+		padding-right: 40px;
+		text-align-last: justify;
+		padding-right: 20px;
+		padding-bottom: 0px;
+		margin-bottom: 20px;
+		
+
+	}
+}
+@media only screen and (max-width:768px) {
+	.intro-info img {
+		height: 7.8rem;
+		width: 7.8rem;
+		margin-left: 0px;
+		margin-top: 0px;
+
+	}
+
+	#about h4{
+		margin-top: 20px;
+		padding-left: 80px;
+		text-align-last: justify;
+		padding-right: 40px;
+		
+	}
+
+
+	#about .intro-info .lead {
+		margin-top: 20px;
+		padding-left: 20px;
+		padding-right: 40px;
+		text-align-last: justify;
+		padding-right: 20px;
+		padding-bottom: 0px;
+		margin-bottom: 20px;
+		
+
+	}
+	.about-content h3 {
+		text-align: center;
+	}
+	.about-content .info-list, .about-content .skill-bars {
+		margin-bottom: 4.2rem;
+	}
+	.button-section .button {
+		width: 100px;
+		margin-bottom: 3rem;
+		margin-left: 0px;
+
+	}
+	.info-list span{
+		margin-top: 20px;
+		padding-left: 20px;
+		padding-right: 40px;
+		text-align-last: left;
+		padding-right: 20px;
+		padding-bottom: 0px;
+		margin-bottom: 20px;
+		
+
+	}
+
+	.info-list li{
+		margin-top: 20px;
+		padding-left: 20px;
+		padding-right: 40px;
+		text-align-last: left;
+		padding-right: 20px;
+		padding-bottom: 0px;
+		margin-bottom: 20px;
+		}
+
+
+		.page2{
+			padding-top: 20px;
+			margin-bottom: 0px;
+			padding-bottom: 20px;
+		}
+
+		#contact h1{
+			padding-left: 10px;
+			padding-right: 0px;
+		}
+
+		footer  .social {
+     -webkit-transform: scale(.5);
+     /* Browser Variations: */
+     
+     -moz-transform: scale(.5);
+     -o-transform: scale(.5);
+     -webkit-transition-duration: 0.5s;
+     -moz-transition-duration: 0.5s;
+     -o-transition-duration: 0.5s;
+     text-align-last: right;
+ }
+ .social:hover {
+     -webkit-transform: scale(.7);
+     -moz-transform: scale(.7);
+     -o-transform: scale(.7);
+ }
+}
+@media only screen and (max-width:600px) {
+	.intro-info {
+		text-align: center;
+		margin-top: 3rem;
+	}
+	.intro-info img {
+		height: 6.6rem;
+		width: 6.6rem;
+		float: none;
+		display: inline-block;
+	}
+	.intro-info .lead {
+		padding-left: 0;
+		text-align: center;
+	}
+}
